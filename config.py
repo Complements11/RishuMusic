@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RishuBot/RishuMusic",
+    "https://github.com/Complements11/RishuMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ur_rishu_143")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ur_support07")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION","BQGLVyUAVMnM3220ozTJojFdX_ma8XxPa4JxS0q3k1xphAUISqFoDut7dKMgGixLZM0d_ydI1lGyWxaHs7zj20ibsykxoMBCZG1srCTfT40WLpSoAF7vYvzJlafdl-_KKJarIvDTisaBjiitASNqsUGWiPF6BZHc_vD3cos5yZu36hOQVR5X-2LVcUYMcb8KYDiEASJOxu66T7E3xYTc3Bnmzwi9FIc6irf1zlYvSwC7pkIJwUkAOUErl-T13_wRC2ZLYOeQtC4qHm0W4GaCDXDZGjM9485d3ab83A9cA9OV-6BygitVRrDX8c1tM2yiDaamguROuMfjbxJtjoq6pDHy8McgAAAAFwwms0AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
